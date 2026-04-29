@@ -39,6 +39,7 @@ Select ONE Additional Feature to Add
     </form>
     <div id="movie-result">
       <p id="movie-text"></p>
+      <img id="green">
     </div>
     <hr />
     <!-- Book Question -->
@@ -53,8 +54,10 @@ Select ONE Additional Feature to Add
         </select>
       </label>
       <button type="submit"><3</button>
+      
     </form>
     <div id="book-result">
+      <img id="hm">
       <p id="book-text"></p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -66,9 +69,12 @@ Select ONE Additional Feature to Add
 
         var $answer = $("#movie-answer");
         var answer = $answer.val();
+       
+        
 
         if (answer === "movie1") {
           $("#movie-text").text("love em to death");
+          $("#green").hide().attr("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxrb41EqHbg6LlTWm3B1TNOGGFU6uyQr6flQ&s").slideDown(4000)
         } 
         else {
           $("#movie-text").text("sorry :( still love them tho");
@@ -84,6 +90,7 @@ Select ONE Additional Feature to Add
 
         if (answer === "book2") {
           $("#book-text").text(";3");
+          $("#hm").hide().attr("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpa9NQXMA2gVsyrmqF-jhWR4-eQYs3MbHfOQ&s").slideDown(4000)
         } 
         else {
           $("#book-text").text("wayyyyy off");
