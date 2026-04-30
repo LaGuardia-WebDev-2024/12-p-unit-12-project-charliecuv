@@ -1,6 +1,10 @@
 #movie-result {
-  background: rgb(180, 168, 217);
-  border: 5px solid rgb(118, 92, 148);
+  /* background: rgb(180, 168, 217); */
+  background-image: url("https://64.media.tumblr.com/24cb0a006f10c9edf425a39742d8fd33/58bf7d5c3c3476c1-06/s1440x900/b1b1a81553419a08cc4a932b0a57c920e506e0fb.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  border: 5px solid rgb(54, 19, 168);
   font-size: 24px;
   min-height: 160px;
   margin-top: 10px;
@@ -8,8 +12,12 @@
 }
 
 #book-result {
-  background: rgb(220, 173, 196);
-  border: 5px solid rgb(156, 104, 119);
+ /* background: rgb(220, 173, 196);*/
+   background-image: url("https://64.media.tumblr.com/24cb0a006f10c9edf425a39742d8fd33/58bf7d5c3c3476c1-06/s1440x900/b1b1a81553419a08cc4a932b0a57c920e506e0fb.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  border: 5px solid rgb(54, 19, 168);
   font-size: 24px;
   min-height: 160px;
   margin-top: 10px;
