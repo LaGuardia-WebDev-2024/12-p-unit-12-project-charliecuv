@@ -28,3 +28,11 @@ hr {
   height: 5px;
   background-color: rgba(65, 90, 110, 0.401);
 }
+
+  
+html{
+  font-family: "Cause", cursive;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+}
